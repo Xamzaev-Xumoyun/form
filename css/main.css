@@ -28,7 +28,7 @@ font-size: 16px;
   overflow: hidden;
   border: 0;
   clip: rect(0 0 0 0);
-}
+} 
 
 .label__span{
   width: 15px;
@@ -42,7 +42,7 @@ font-size: 16px;
   
 
  
-  input:checked ~ .label__span{
+   .label__span:checked{
   background-repeat: no-repeat;
   background-size: 80%;
   background-image: url(../images/table-tennis.png);
@@ -60,7 +60,7 @@ font-size: 16px;
  
 }
 
- .label__span__next:checked{
+ input:disabled ~ .label__span__next{
   background-repeat: no-repeat;
   background-size: 80%;
   background-image: url(../images/basketball-ball.png);
@@ -74,11 +74,17 @@ font-size: 16px;
   border: 1px solid #000;
   border-radius: 5px;
   margin-right: 5px;
+}
+ 
+   
+
+   label:checked ~.label__span__our{
   background-repeat: no-repeat;
   background-size: 80%;
   background-image: url(../images/volleyball-ball.png);
   background-position: center;
 }
+
 
 
 .label__span__last{
