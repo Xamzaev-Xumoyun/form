@@ -1,0 +1,104 @@
+.form__site{
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  margin: 0px auto;
+}
+ 
+.form__text{
+
+font-size: 16px;
+
+
+}
+
+.label{
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+ 
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  border: 0;
+  clip: rect(0 0 0 0);
+}
+
+.label__span{
+  width: 15px;
+  height: 15px;
+  display: inline-block;
+  border: 1px solid #000;
+  border-radius: 5px;
+  margin-right: 5px;
+  
+}
+  
+
+ 
+  input:checked ~ .label__span{
+  background-repeat: no-repeat;
+  background-size: 80%;
+  background-image: url(../images/table-tennis.png);
+  background-position: center;
+}
+
+
+.label__span__next{
+  width: 15px;
+  height: 15px;
+  display: inline-block;
+  border: 1px solid #000;
+  border-radius: 5px;
+  margin-right: 5px;
+ 
+}
+
+ .label__span__next:checked{
+  background-repeat: no-repeat;
+  background-size: 80%;
+  background-image: url(../images/basketball-ball.png);
+  background-position: center;
+}
+
+.label__span__our{
+  width: 15px;
+  height: 15px;
+  display: inline-block;
+  border: 1px solid #000;
+  border-radius: 5px;
+  margin-right: 5px;
+  background-repeat: no-repeat;
+  background-size: 80%;
+  background-image: url(../images/volleyball-ball.png);
+  background-position: center;
+}
+
+
+.label__span__last{
+  width: 15px;
+  height: 15px;
+  display: inline-block;
+  border: 1px solid #000;
+  border-radius: 5px;
+  margin-right: 5px;
+  background-repeat: no-repeat;
+  background-size: 80%;
+  background-image: url(../images/hockey-puck.png);
+  background-position: center; 
+}
+
+
+
+
+
+
+
+
+
