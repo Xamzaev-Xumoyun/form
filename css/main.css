@@ -42,30 +42,13 @@ font-size: 16px;
   
 
  
-   .label__span:checked{
-  background-repeat: no-repeat;
-  background-size: 80%;
-  background-image: url(../images/table-tennis.png);
-  background-position: center;
+  .input__span:checked ~ .label__span{
+    background-repeat: no-repeat;
+    background-size: 80%;
+    background-image: url(../images/table-tennis.png);
+    background-position: center;
 }
 
-
-.label__span__next{
-  width: 15px;
-  height: 15px;
-  display: inline-block;
-  border: 1px solid #000;
-  border-radius: 5px;
-  margin-right: 5px;
- 
-}
-
- input:disabled ~ .label__span__next{
-  background-repeat: no-repeat;
-  background-size: 80%;
-  background-image: url(../images/basketball-ball.png);
-  background-position: center;
-}
 
 .label__span__our{
   width: 15px;
@@ -74,31 +57,68 @@ font-size: 16px;
   border: 1px solid #000;
   border-radius: 5px;
   margin-right: 5px;
+  opacity: 0.3;
 }
+
  
+ .input__span__our:checked ~ .label__span__our{
+  background-repeat: no-repeat;
+  background-image: url(../images/basketball-ball.png);
+  background-size: 80%;
+  background-position: center;
+  
+ }
+
+
+
+
+   .input__span__next:checked ~ .label__span__next{
+    background-repeat: no-repeat;
+    background-size: 80%;
+    background-image: url(../images/volleyball-ball.png);
+    background-position: center;
+   } 
+
+   
+    
    
 
-   label:checked ~.label__span__our{
-  background-repeat: no-repeat;
-  background-size: 80%;
-  background-image: url(../images/volleyball-ball.png);
-  background-position: center;
-}
+     
 
 
 
-.label__span__last{
+
+
+
+
+
+
+ 
+ .label__span__last{
   width: 15px;
   height: 15px;
   display: inline-block;
   border: 1px solid #000;
   border-radius: 5px;
   margin-right: 5px;
+  opacity: 0.3;
+ }
+
+  .input__span__last:checked ~ .label__span__last{
   background-repeat: no-repeat;
   background-size: 80%;
   background-image: url(../images/hockey-puck.png);
-  background-position: center; 
-}
+  background-position: center;
+  
+ }
+
+
+
+
+
+
+
+
 
 
 
